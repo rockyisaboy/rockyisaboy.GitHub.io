@@ -1,9 +1,7 @@
-[Hux Blog](https://huangxuan.me)
+[数据斯基](https://sjsj.life)
 ================================
 
 > I never expect this becomes popular.
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
 
 
 [User Manual 👉](_doc/Manual.md)
