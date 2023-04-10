@@ -2,8 +2,8 @@
 title: Rocky Blog
 SEOTitle: 数据斯基
 header-img: img/home-bg.jpg
-email: 热喔才可以@qq.com
-description: "这里是个人博客，与你一起发现更大的世界"
+email: rocky.28@qq.com
+description: "数据分析 人人都会的技能"
 keyword: "博客, 个人网站, 互联网, 数据分析, 成长"
 url: "https://sjsj.life" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -87,16 +87,3 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-# Friends
-friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
