@@ -1,3 +1,13 @@
+---
+layout:       post
+title:        "Hello 数据斯基"
+author:       "数据斯基"
+header-style: text
+catalog:      true
+tags:
+    - 数据分析
+    - 转行
+---
 # Hello 数据斯基！
 
 ## About Me
@@ -12,8 +22,12 @@
 
 现在的我，在一家电商公司做数据分析，这个行业可是我当年转行时最想去的行业，如今过了5年多了，终于算是实现了。
 
-
-
 ## About Future
 
-https://www.zhihu.com/collection/701491379
+本站会记录我成长路上的一些心得体会，本人并不是技术大牛，但有些经验和思路可以分享给大家
+
+
+
+本站搭建参考：https://www.zhihu.com/question/20463581/answer/25478916
+
+本站模板参考：https://huangxuan.me/about/
