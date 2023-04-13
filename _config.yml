@@ -1,5 +1,5 @@
 # Site settings
-title: Rocky Blog
+title: S J S J
 SEOTitle: 数据斯基
 header-img: img/post-bg-miui6.jpg
 email: rocky.28@qq.com
@@ -59,18 +59,18 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: 
 
 # Netease settings
-netease_comment: false
+netease_comment: true
 
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: "" # Format: UA-xxxxxx-xx
+ga_domain: sjsj.life
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
