@@ -1,15 +1,13 @@
 ---
 layout:       post
-title:        "Hello 数据斯基"
-author:       "数据斯基"
+title:        "Hello 数据斯基！"
+author:       "Rocky"
 header-style: text
 catalog:      true
 tags:
     - 数据分析
     - 转行
 ---
-# Hello 数据斯基！
-
 ## About Me
 
 2015年底，我有了转行的念头，从事数据分析的工作，经过一年多的自学，终于在2017年成功转行，在一家互联网公司做数据分析的工作，现在回看，很感谢自己当初的选择，一个是因为房地产行业确实在走下坡路了，另一个是从事自己热爱并擅长的工作是一件正确的事。
@@ -25,8 +23,6 @@ tags:
 ## About Future
 
 本站会记录我成长路上的一些心得体会，本人并不是技术大牛，但有些经验和思路可以分享给大家
-
-
 
 本站搭建参考：https://www.zhihu.com/question/20463581/answer/25478916
 
