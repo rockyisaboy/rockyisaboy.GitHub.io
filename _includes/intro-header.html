@@ -42,16 +42,16 @@
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     <span class="meta">{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 写于 {{ page.date | date: "%Y-%m-%d" }}</span>
+                    <br>
+                        <div class="tags">
+                            <div class="tags-label">本文标签：</div>
+                            {% for tag in page.tags %}
+                            <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+                            {% endfor %}
+                        </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <div class="tags">
-        <div class="tags-label">本文标签：</div>
-        {% for tag in page.tags %}
-          <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
-        {% endfor %}
     </div>
 </header>
 {% endif %}
