@@ -46,6 +46,13 @@
             </div>
         </div>
     </div>
+    <br>
+    <div class="tags">
+        <div class="tags-label">本文标签：</div>
+        {% for tag in page.tags %}
+          <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
 </header>
 {% endif %}
 
@@ -105,11 +112,5 @@
       </div>
     </div>
   </div>
-  <div class="tags">
-    <div class="tags-label">本文标签：</div>
-    {% for tag in page.tags %}
-      <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
-    {% endfor %}
-</div>
 </header>
 {% endif %}
