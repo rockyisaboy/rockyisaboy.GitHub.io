@@ -1,12 +1,14 @@
 {
   "config": {
+    "branch": "master",
+    "cname": "sjsj.life",
+    "domain": "https://sjsj.life",
+    "email": "rocky.28@qq.com",
+    "enabledProxy": "direct",
     "platform": "github",
-    "domain": "",
-    "repository": "",
-    "branch": "",
-    "username": "",
-    "email": "",
-    "token": ""
+    "repository": "https://github.com/rockyisaboy/rockyisaboy.GitHub.io",
+    "token": "RockyChen@28",
+    "username": "rockyisaboy"
   },
   "comment": {
     "commentPlatform": "gitalk",
