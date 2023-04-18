@@ -1,35 +1,11 @@
 {
-  "relative_paths" : [
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md",
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md",
-    "_includes\/about\/en.md",
-    "_includes\/about\/zh.md",
-    "_posts\/hello world！.md",
-    "_posts\/2023-04-10-Hello-SJSJ.md",
-    "ads.txt",
-    "_doc\/README.zh.md",
-    "_doc\/Manual.md",
-    "README.md",
-    "_posts\/2023-04-18-hello-world！.md"
-  ],
-  "words_info" : {
-    "_posts\/2023-04-18-hello-world！.md" : 52,
-    "_doc\/Manual.md" : 0,
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 0,
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 0,
-    "_doc\/README.zh.md" : 0,
-    "_includes\/about\/zh.md" : 35,
-    "ads.txt" : 5,
-    "_posts\/2023-04-10-Hello-SJSJ.md" : 1234,
-    "README.md" : 23,
-    "_posts\/hello world！.md" : 52,
-    "_includes\/about\/en.md" : 19
-  },
   "links_backward_paths" : {
 
   },
+  "toc_hash_info" : {
+
+  },
   "filename_path_info" : {
-    "hello world！" : "_posts\/hello world！.md",
     "ads" : "ads.txt",
     "zh" : "_includes\/about\/zh.md",
     "en" : "_includes\/about\/en.md",
@@ -38,6 +14,95 @@
     "2023-04-10-hello-sjsj" : "_posts\/2023-04-10-Hello-SJSJ.md",
     "readme" : "README.md",
     "readme.zh" : "_doc\/README.zh.md"
+  },
+  "relative_folders" : [
+    "_includes",
+    "_includes\/posts",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa",
+    "_includes\/about",
+    "css",
+    "less",
+    "_posts",
+    "js",
+    "_doc",
+    "_layouts",
+    "img",
+    "img\/in-post",
+    "pwa",
+    "pwa\/icons",
+    "fonts"
+  ],
+  "tags_paths" : {
+    "_doc\/README.zh.md" : [
+
+    ],
+    "_doc\/Manual.md" : [
+
+    ],
+    "_includes\/about\/zh.md" : [
+
+    ],
+    "_posts\/2023-04-10-Hello-SJSJ.md" : [
+
+    ],
+    "README.md" : [
+
+    ],
+    "ads.txt" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
+
+    ],
+    "_includes\/about\/en.md" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
+
+    ],
+    "_posts\/2023-04-18-hello-world！.md" : [
+
+    ]
+  },
+  "words_info" : {
+    "_posts\/2023-04-18-hello-world！.md" : 48,
+    "_doc\/Manual.md" : 0,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 0,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 0,
+    "_doc\/README.zh.md" : 0,
+    "_includes\/about\/zh.md" : 35,
+    "ads.txt" : 5,
+    "_posts\/2023-04-10-Hello-SJSJ.md" : 1234,
+    "README.md" : 23,
+    "_includes\/about\/en.md" : 19
+  },
+  "links_paths" : {
+
+  },
+  "files_mtime_info" : {
+    "_posts\/2023-04-18-hello.md" : 1681805716,
+    "_posts\/2023-04-10-Hello-SJSJ.md" : 1681742394,
+    "ads.txt" : 1681093064,
+    "README.md" : 1681726667,
+    "_posts\/hello world！.md" : 1681800370,
+    "_includes\/about\/zh.md" : 1681741916,
+    "_includes\/about\/en.md" : 1681741920,
+    "_doc\/README.zh.md" : 1681727744,
+    "_doc\/Manual.md" : 1681727744,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 1681736923,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 1681736922,
+    "_posts\/2023-04-18-hello-world！.md" : 1681805847
+  },
+  "name_path_info" : {
+    "manual" : "_doc\/Manual.md",
+    "2023-04-18-hello" : "_posts\/2023-04-18-hello.md",
+    "en" : "_includes\/about\/en.md",
+    "hello 数据斯基！" : "_posts\/hello world！.md",
+    "readme.zh" : "_doc\/README.zh.md",
+    "hello world！" : "_posts\/2023-04-18-hello-world！.md",
+    "readme" : "README.md",
+    "ads" : "ads.txt",
+    "zh" : "_includes\/about\/zh.md"
   },
   "documents_info" : {
     "_posts\/2023-04-10-Hello-SJSJ.md" : {
@@ -80,18 +145,22 @@
 
       ]
     },
-    "_posts\/hello world！.md" : {
-      "attachments" : [
-
+    "_posts\/2023-04-18-hello-world！.md" : {
+      "images" : [
+        {
+          "name" : "home-bg.jpg",
+          "path" : "img\/home-bg.jpg"
+        },
+        {
+          "name" : "bg-material.jpg",
+          "path" : "img\/bg-material.jpg"
+        }
       ],
       "links" : [
 
       ],
-      "images" : [
-        {
-          "path" : "img\/home-bg.jpg",
-          "name" : "home-bg.jpg"
-        }
+      "attachments" : [
+
       ]
     },
     "_doc\/Manual.md" : {
@@ -162,35 +231,62 @@
       "attachments" : [
 
       ]
-    },
-    "_posts\/2023-04-18-hello-world！.md" : {
-      "images" : [
-        {
-          "name" : "home-bg.jpg",
-          "path" : "img\/home-bg.jpg"
-        }
-      ],
-      "attachments" : [
-
-      ],
-      "links" : [
-
-      ]
     }
   },
-  "wiki_data_version" : "0.1",
-  "files_mtime_info" : {
-    "_posts\/2023-04-10-Hello-SJSJ.md" : 1681742394,
-    "ads.txt" : 1681093064,
-    "README.md" : 1681726667,
-    "_posts\/hello world！.md" : 1681800370,
-    "_includes\/about\/zh.md" : 1681741916,
-    "_includes\/about\/en.md" : 1681741920,
-    "_doc\/README.zh.md" : 1681727744,
-    "_doc\/Manual.md" : 1681727744,
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 1681736923,
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 1681736922,
-    "_posts\/2023-04-18-hello-world！.md" : 1681800370
+  "todo_list" : {
+
+  },
+  "relative_paths" : [
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md",
+    "_includes\/about\/en.md",
+    "_includes\/about\/zh.md",
+    "_posts\/2023-04-10-Hello-SJSJ.md",
+    "ads.txt",
+    "_doc\/README.zh.md",
+    "_doc\/Manual.md",
+    "README.md",
+    "_posts\/2023-04-18-hello-world！.md"
+  ],
+  "tags_tags" : {
+
+  },
+  "toc_info" : {
+    "_includes\/about\/zh.md" : [
+
+    ],
+    "_doc\/README.zh.md" : [
+
+    ],
+    "ads.txt" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
+
+    ],
+    "README.md" : [
+
+    ],
+    "_posts\/2023-04-10-Hello-SJSJ.md" : [
+      "0,## About Me",
+      "1,## About Now",
+      "2,## About Future",
+      "3,# 致谢"
+    ],
+    "_includes\/about\/en.md" : [
+
+    ],
+    "_doc\/Manual.md" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
+
+    ],
+    "_posts\/2023-04-18-hello-world！.md" : [
+      "0,# 标题1",
+      "1,## 标题2",
+      "2,### 标题3"
+    ]
   },
   "documents_meta_info" : {
     "_doc\/Manual.md" : {
@@ -224,6 +320,14 @@
     "ads.txt" : {
 
     },
+    "_posts\/2023-04-18-hello.md" : {
+      "layout" : "post",
+      "title" : "hello",
+      "author" : "AbacusMan",
+      "date" : "2023-04-18",
+      "raw_metadata_str" : "layout:       post\ntitle:  hello\nauthor:       \"AbacusMan\"\ndate: 2023-04-18\nheader-style: text\ncatalog:      true",
+      "catalog" : "true"
+    },
     "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : {
 
     },
@@ -234,18 +338,18 @@
 
     },
     "_posts\/2023-04-18-hello-world！.md" : {
-      "author" : "AbacusMan",
-      "layout" : "post",
-      "raw_metadata_str" : "layout:       post\ntitle:        \"Hello World！\"\nauthor:       \"AbacusMan\"\nheader-style: text\ncatalog:      true\ntags:\n    - 测试\n    - 测试 2",
-      "catalog" : "true",
       "tags" : "",
+      "raw_metadata_str" : "layout:       post\ntitle:        \"Hello World！\"\nauthor:       \"AbacusMan\"\nheader-style: text\ncatalog:      true\ntags:\n    - 测试\n    - 测试 2",
+      "layout" : "post",
+      "author" : "AbacusMan",
+      "catalog" : "true",
       "title" : "Hello World！"
     }
   },
+  "wiki_data_version" : "0.1",
   "path_name_info" : {
     "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : "zh",
     "_doc\/README.zh.md" : "README.zh",
-    "_posts\/hello world！.md" : "Hello World！",
     "_includes\/about\/zh.md" : "zh",
     "_doc\/Manual.md" : "Manual",
     "ads.txt" : "ads",
@@ -254,121 +358,5 @@
     "_posts\/2023-04-18-hello-world！.md" : "Hello World！",
     "_posts\/2023-04-10-Hello-SJSJ.md" : "Hello 数据斯基！",
     "README.md" : "README"
-  },
-  "todo_list" : {
-
-  },
-  "relative_folders" : [
-    "_includes",
-    "_includes\/posts",
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa",
-    "_includes\/about",
-    "css",
-    "less",
-    "_posts",
-    "js",
-    "_doc",
-    "_layouts",
-    "img",
-    "img\/in-post",
-    "pwa",
-    "pwa\/icons",
-    "fonts"
-  ],
-  "toc_hash_info" : {
-
-  },
-  "links_paths" : {
-
-  },
-  "toc_info" : {
-    "_posts\/2023-04-18-hello-world！.md" : [
-      "0,# 标题1",
-      "1,## 标题2",
-      "2,### 标题3"
-    ],
-    "_includes\/about\/zh.md" : [
-
-    ],
-    "_doc\/README.zh.md" : [
-
-    ],
-    "_posts\/hello world！.md" : [
-      "0,# 标题1",
-      "1,## 标题2",
-      "2,### 标题3"
-    ],
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
-
-    ],
-    "README.md" : [
-
-    ],
-    "_posts\/2023-04-10-Hello-SJSJ.md" : [
-      "0,## About Me",
-      "1,## About Now",
-      "2,## About Future",
-      "3,# 致谢"
-    ],
-    "_includes\/about\/en.md" : [
-
-    ],
-    "_doc\/Manual.md" : [
-
-    ],
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
-
-    ],
-    "ads.txt" : [
-
-    ]
-  },
-  "tags_paths" : {
-    "_doc\/README.zh.md" : [
-
-    ],
-    "_doc\/Manual.md" : [
-
-    ],
-    "_posts\/hello world！.md" : [
-
-    ],
-    "_includes\/about\/zh.md" : [
-
-    ],
-    "_posts\/2023-04-10-Hello-SJSJ.md" : [
-
-    ],
-    "README.md" : [
-
-    ],
-    "ads.txt" : [
-
-    ],
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
-
-    ],
-    "_includes\/about\/en.md" : [
-
-    ],
-    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
-
-    ],
-    "_posts\/2023-04-18-hello-world！.md" : [
-
-    ]
-  },
-  "name_path_info" : {
-    "manual" : "_doc\/Manual.md",
-    "en" : "_includes\/about\/en.md",
-    "hello 数据斯基！" : "_posts\/hello world！.md",
-    "readme.zh" : "_doc\/README.zh.md",
-    "hello world！" : "_posts\/2023-04-18-hello-world！.md",
-    "readme" : "README.md",
-    "ads" : "ads.txt",
-    "zh" : "_includes\/about\/zh.md"
-  },
-  "tags_tags" : {
-
   }
 }

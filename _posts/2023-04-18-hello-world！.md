@@ -32,5 +32,5 @@ where date >= '2023-01-01
 hello **world**!
 
 
-![图片](/Users/anker/Documents/GitHub/rockyisaboy.GitHub.io/img/post-bg-universe.jpg)
+![](/img/bg-material.jpg)
 
