@@ -75,7 +75,7 @@ ga_domain: sjsj.life
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "真理总沾着灰"
-sidebar-avatar: https://avatars.githubusercontent.com/u/130053287?s=400&u=d81c75a56c8bc94b316ff6d3427b95c4294757ef&v=4  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://avatars.githubusercontent.com/u/130053287?s=400  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
