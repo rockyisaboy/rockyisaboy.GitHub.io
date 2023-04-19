@@ -1,9 +1,9 @@
 ---
-layout: page
+layout:post
 
 title: "利器"
 
-description: "「大多数人到死都没有向尘世之外瞥一眼」"
+description: "「唯一不可阻挡的是时间」"
 
 header-img: "img/home-bg-o.jpg"
 
@@ -15,10 +15,24 @@ header-mask: 0.3
 
 ## 软件
 
+1.
 
+2. 
+
+3. 
 
 ## 网站
 
+1. 
 
+2. 
+
+3. 
 
 ## 方法
+
+1. 
+
+2. 
+
+3.
