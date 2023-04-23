@@ -6,7 +6,7 @@ email: rocky.28@qq.com
 description: "数据分析 人人都会"
 keyword: "博客, 个人网站, 互联网, 数据分析, 成长"
 url: "https://sjsj.life" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://sjsj.life" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
