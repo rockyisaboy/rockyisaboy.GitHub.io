@@ -4,6 +4,7 @@ title:        "Hello 数据斯基！"
 author:       "AbacusMan"
 header-style: text
 catalog:      true
+date: 2023-04-10
 tags:
     - 数据分析
     - 转行
