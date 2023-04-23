@@ -1456,7 +1456,7 @@ img::-moz-selection {
 .tags a,
 .tags .tag {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.408);
   border-radius: 999em;
   padding: 0 10px 0 10px;
   color: #ffffff;
