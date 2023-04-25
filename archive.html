@@ -42,8 +42,14 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
 				{%- assign _sorted_list = _sorted_list | reverse -%}
 
-				{% if _sorted_list.size == 0 %}
-				<p>No posts found.</p>
+				{% if site.posts %}
+					<ul>
+					{% for post in site.posts %}
+						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+						</ul>
+					{% else %}
+						<p>No posts found.</p>
 				{% endif %}
 
 				
