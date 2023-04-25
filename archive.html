@@ -52,6 +52,9 @@ https://github.com/kitian616/jekyll-TeXt-theme
 						<p>No posts found.</p>
 				{% endif %}
 
+				{% for post in site.posts %}
+					<li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
 				
 				{%- for _article in _sorted_list -%}
 				{%- assign _tags = '' -%}
