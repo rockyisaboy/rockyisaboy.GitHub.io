@@ -42,6 +42,10 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
 				{%- assign _sorted_list = _sorted_list | reverse -%}
 
+				{% if _sorted_list.size == 0 %}
+				<p>No posts found.</p>
+				{% endif %}
+
 				
 				{%- for _article in _sorted_list -%}
 				{%- assign _tags = '' -%}
