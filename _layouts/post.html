@@ -170,4 +170,24 @@ layout: default
         }
     }
 </style>
+<a href="#" class="back-to-top">Back to top</a>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn();
+    } else {
+      $('.back-to-top').fadeOut();
+    }
+  });
+
+  $('.back-to-top').click(function() {
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+});
+</script>
 {% endif %}
