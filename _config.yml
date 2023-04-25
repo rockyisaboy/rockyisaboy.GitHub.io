@@ -4,22 +4,21 @@ SEOTitle: 数据斯基
 header-img: img/post-bg-miui6.jpg
 email: rocky.28@qq.com
 description: "数据分析 人人都会"
-keyword: "博客, 个人网站, 互联网, 数据分析, 成长"
+keyword: "博客, 个人网站, 互联网, 数据分析, 成长, Google Analytics, BigQuery, Similarweb, Excel, R语言"
 url: "https://sjsj.life" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
-source: _posts
 
 # SNS settings
-RSS: true
+RSS: false
 # weibo_username: 
 # zhihu_username: 
 # github_username: 
 # twitter_username: 
-# facebook_username:  
-# linkedin_username:  firstname-lastname-idxxxx
+#facebook_username: 
+#linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -63,20 +62,20 @@ kramdown:
 disqus_username: 
 
 # Netease settings
-netease_comment: true
+netease_comment: false
 
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
-# ga_track_id: "" # Format: UA-xxxxxx-xx
+ga_track_id: "" # Format: UA-xxxxxx-xx
 ga_domain: sjsj.life
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "真理总沾着灰"
-sidebar-avatar: https://avatars.githubusercontent.com/u/130053287?s=400  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://avatars.githubusercontent.com/u/130053287?s=400 # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,3 +87,10 @@ service-worker: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
+
+# Friends
+friends:
+  [
+    { title: "百度", href: "http://baidu.com/" },
+    { title: "必应", href: "http://cn.bing.com/" }
+  ]

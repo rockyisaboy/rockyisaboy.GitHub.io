@@ -7,10 +7,9 @@
                 {% include sns-links.html center=true %}
 
                 <p class="copyright text-muted">
-                    “不理睬是最大的轻蔑”
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Powered by <a href="https://github.com">GitHub</a> 
-                    <br>
+                    Powered by <a href="http://sjsj.life">AbacusMan Blog</a> 
                 </p>
             </div>
         </div>
@@ -25,7 +24,7 @@
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/abacusman-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Simple Jekyll Search -->
 <script src="{{ "/js/simple-jekyll-search.min.js" | prepend: site.baseurl }}"></script>
@@ -89,7 +88,7 @@
 {% endif %}
 
 
-{% if page.title == 归档 %}
+{% if page.title == '归档' %}
 <!-- jquery.tagcloud.js -->
 <script>
     async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}', function () {

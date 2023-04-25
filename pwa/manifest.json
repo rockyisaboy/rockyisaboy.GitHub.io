@@ -1,7 +1,7 @@
 {
-  "name": "AbacusMan Blog",
-  "short_name": "AbacusMan Blog",
-  "description": "人做过的，神都记着",
+  "name": "ABM Blog",
+  "short_name": "ABM Blog",
+  "description": "All in data analysis",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
