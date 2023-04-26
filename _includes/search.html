@@ -3,7 +3,10 @@
   <head>
     <style>
       #search-input {
-        opacity: 0.5;
+        opacity: 0.3;
+      }
+      #search-input:focus {
+        opacity: 1;
       }
     </style>
   </head>
@@ -28,15 +31,21 @@
     <script>
       // 获取搜索框元素
       var searchInput = document.getElementById("search-input");
-    
+
+      // 监听焦点事件
+      searchInput.addEventListener('focus', function() {
+        searchInput.style.opacity = 1;
+      });
+
+      // 监听失去焦点事件
+      searchInput.addEventListener('blur', function() {
+        searchInput.style.opacity = 0.3;
+      });
+
       // 监听键盘事件
-      document.addEventListener("keydown", function(event) {
-        // 如果按下ESC键
+      document.addEventListener('keydown', function(event) {
         if (event.keyCode === 27) {
-          // 清空搜索框内容
-          searchInput.value = "";
-          // 隐藏搜索结果
-          document.getElementById("search-results").style.display = "none";
+          document.querySelector('.search-page').classList.remove('search-page-open');
         }
       });
     </script>
