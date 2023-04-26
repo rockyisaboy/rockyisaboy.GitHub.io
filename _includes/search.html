@@ -9,9 +9,16 @@
         padding-bottom: 5px;
         border-bottom: 1px solid black;
         width: 12em;
+        color: gray;
       }
       #search-input:focus {
         opacity: 1;
+        color: black;
+      }
+      #search-button {
+        width: 22em;
+        height: 2em;
+        margin-top: 5px;
       }
     </style>
   </head>
@@ -27,6 +34,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <form></form>
             <input type="text" id="search-input" placeholder="空不是无，空是一种存在">
+            <button type="submit" id="search-button">搜索</button>
             </form>
             <div id="search-results" class="mini-post-list"></div>
           </div>
@@ -36,18 +44,33 @@
     <script>
       // 获取搜索框元素
       var searchInput = document.getElementById("search-input");
-
       // 监听焦点事件
       searchInput.addEventListener('focus', function() {
         searchInput.style.opacity = 1;
+        searchInput.value = "";
+        searchInput.style.color = "black";
       });
-
       // 监听失去焦点事件
       searchInput.addEventListener('blur', function() {
-        searchInput.style.opacity = 0.3;
+        if (searchInput.value === "") {
+          searchInput.style.opacity = 0.3;
+          searchInput.value = "空不是无，空是一种存在";
+          searchInput.style.color = "gray";
+        }
       });
-
       // 监听键盘事件
+      document.addEventListener('keydown', function(event) {
+        if (event.keyCode === 27) {
+          document.querySelector('.search-page').classList.remove('search-page-open');
+        }
+      });
+      // 监听搜索按钮点击事件
+      var searchButton = document.getElementById("search-button");
+      searchButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        // 执行搜索操作
+      });
+      // 监听ESC键事件
       document.addEventListener('keydown', function(event) {
         if (event.keyCode === 27) {
           document.querySelector('.search-page').classList.remove('search-page-open');
