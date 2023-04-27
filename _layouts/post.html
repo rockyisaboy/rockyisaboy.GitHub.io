@@ -33,7 +33,7 @@ layout: default
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         上一篇<br>
-                        {{page.previous.title | capitalize}}
+                        <span>{{page.previous.title}}</span>
                         </a>
                     </li>
                     {% endif %}
@@ -41,7 +41,7 @@ layout: default
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         下一篇<br>
-                        {{page.next.title | capitalize}}
+                        <span>{{page.next.title}}</span>
                         </a>
                     </li>
                     {% endif %}
