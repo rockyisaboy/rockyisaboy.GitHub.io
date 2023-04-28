@@ -136,17 +136,19 @@ layout: default
 {% endif %}
 
     <!-- valine评论 -->
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div class="container">
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
-            appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
-        })
-    </script>
-
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
+                appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
+            })
+        </script>
+    </div>
+    
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>
