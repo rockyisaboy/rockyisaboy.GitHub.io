@@ -94,3 +94,15 @@ friends:
     { title: "百度", href: "http://baidu.com/" },
     { title: "必应", href: "http://cn.bing.com/" }
   ]
+
+valine:
+  enable: true # 设置为true，默认为false
+  appid: Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz  # 将应用key的App ID设置在这里
+  appkey: xShhO8MeLS5XcoMy2ULtE7Wj # 将应用key的App Key设置在这里
+  notify: true # 邮箱通知 , https://github.com/xCss/Valine/wiki，默认为false
+  verify: false # 验证码 默认为false
+  placeholder: Just go go ^_^ # 初始化评论显示，根据自己修改，这里默认，
+  avatar: wavatar # 头像风格，默认为mm，可进入网址：https://valine.js.org/visitor.html查看头像设置，这里有许多头像风格，进行设置
+  guest_info: nick, mail,link # 自定义评论标题
+  pageSize: 10 # 分页大小，10页就自动分页
+  visitor: true # 是否允许游客评论 ，进入官网查看设置：https://valine.js.org/visitor.html
