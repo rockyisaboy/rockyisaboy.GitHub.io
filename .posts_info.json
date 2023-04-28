@@ -1,0 +1,859 @@
+{
+  "relative_folders" : [
+    "_includes",
+    "_includes\/posts",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa",
+    "_includes\/about",
+    "tools",
+    "css",
+    "less",
+    "_posts",
+    "js",
+    "_doc",
+    "_layouts",
+    "img",
+    "img\/in-post",
+    "pwa",
+    "pwa\/icons",
+    "fonts"
+  ],
+  "wiki_data_version" : "0.1",
+  "tags_paths" : {
+    "ads.txt" : [
+
+    ],
+    "_doc\/README.zh.md" : [
+
+    ],
+    "_posts\/2023-04-27-change-career.md" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
+
+    ],
+    "_includes\/about\/zh.md" : [
+
+    ],
+    "README.md" : [
+
+    ],
+    "tools\/tools.md" : [
+
+    ],
+    "_posts\/2023-04-10-Hello-SJSJ.md" : [
+
+    ],
+    "_doc\/Manual.md" : [
+
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
+
+    ]
+  },
+  "toc_info" : {
+    "README.md" : [
+
+    ],
+    "_includes\/about\/zh.md" : [
+
+    ],
+    "_posts\/2023-04-10-Hello-SJSJ.md" : [
+      "0,## About Me",
+      "1,## About Now",
+      "2,## About Future",
+      "3,# 致谢"
+    ],
+    "tools\/tools.md" : [
+      "0,## 软件",
+      "1,## 网站",
+      "2,## 方法"
+    ],
+    "_doc\/README.zh.md" : [
+      "0,# Hux blog 模板",
+      "1,### [我的博客在这里 &rarr;](http:\/\/huxpro.github.io)",
+      "2,### 关于收到\"Page Build Warning\"的email",
+      "3,## 关于模板(beta)",
+      "4,## 各版本特性",
+      "5,##### New Feature (V1.5.2)",
+      "6,###### 其他历史版本个人觉得没有必要了解，看看英文就行了。",
+      "7,## 支持",
+      "8,## 说明文档",
+      "9,#### Environment",
+      "10,#### Get Started",
+      "11,#### write-posts",
+      "12,#### SideBar",
+      "13,#### Mini About Me",
+      "14,#### Featured Tags",
+      "15,#### Friends",
+      "16,#### Keynote Layout",
+      "17,#### Comment",
+      "18,#### Analytics",
+      "19,#### Customization",
+      "20,#### Header Image",
+      "21,#### SEO Title",
+      "22,## 致谢"
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : [
+      "0,## 多页应用、Vue、PWA？",
+      "1,## 实现 “PRPL” 模式",
+      "2,### 1. PUSH\/PRELOAD，推送\/预加载初始 URL 路由所需的关键资源。",
+      "3,### 2. RENDER，渲染初始路由，尽快让应用可被交互",
+      "4,### 3. PRE-CACHE，用 Service Worker 预缓存剩下的路由",
+      "5,### 4. LAZY-LOAD 按需懒加载、懒实例化剩下的路由",
+      "6,## 多页应用的陷阱：重启开销",
+      "7,### 巨大的 JavaScript 重启开销",
+      "8,### 浏览器的缓存啊，能不能帮帮忙？",
+      "9,## 为“感知体验”奋斗",
+      "10,### 在构建时使用 Vue 预渲染骨架屏",
+      "11,### 关于浏览器的绘制（Painting）",
+      "12,### 黑魔法：利用 setTimeout() 让绘制提前",
+      "13,### 被我 “defer” 的有关 `defer` 的 Bug",
+      "14,## 一些感想",
+      "15,### 多页应用仍然有很长的路要走",
+      "16,### 而 PWA 终将带领 web 应用进入新的时代"
+    ],
+    "ads.txt" : [
+
+    ],
+    "_doc\/Manual.md" : [
+      "0,### Getting Started",
+      "1,### Development",
+      "2,### Configs",
+      "3,### Posts",
+      "4,### SideBar",
+      "5,### Mini About Me",
+      "6,### Featured Tags",
+      "7,### Friends",
+      "8,### Keynote Layout",
+      "9,### Comment",
+      "10,### Analytics",
+      "11,### SEO Title",
+      "12,#### cannot load such file -- jekyll-paginate",
+      "13,#### V1.8.2",
+      "14,#### V1.8.1",
+      "15,#### V1.8",
+      "16,#### V1.7",
+      "17,#### v1.6",
+      "18,#### V1.5.2",
+      "19,#### V1.5.1",
+      "20,#### V1.5",
+      "21,#### V1.4",
+      "22,#### V1.3.1",
+      "23,#### V1.3",
+      "24,#### V1.2",
+      "25,#### V1.1",
+      "26,#### V1.0"
+    ],
+    "_posts\/2023-04-27-change-career.md" : [
+      "0,# 我为什么要转行？",
+      "1,# 我做了哪些准备？",
+      "2,## 统计学",
+      "3,## SQL",
+      "4,## R语言",
+      "5,## 谁说菜鸟不会数据分析？",
+      "6,## Tableau",
+      "7,## 网络",
+      "8,# 找工作好找吗？",
+      "9,# 转行之后怎么样？"
+    ],
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : [
+      "0,## Multi-page, Vue, PWA?",
+      "1,## Implementing \"PRPL\" with MPA",
+      "2,### 1. PUSH critical resources for initial URL route.",
+      "3,### 2. RENDER initial route & get it interactive ASAP",
+      "4,### 3. **PRE-CACHE** remaining routes using Service Worker",
+      "5,### 4. LAZY-load & instantiate remaining routes on demand",
+      "6,## Multi-page Pitfall: Redo Everything!",
+      "7,### Huge JavaScript Re-Startup Cost",
+      "8,### Could Browser Caches Help?",
+      "9,## Striving for Perceived Performance",
+      "10,### Rendering Skeleton Screen with Vue at Build-Time",
+      "11,### Fast Skeleton Painting...",
+      "12,### Fast Skeleton Painting with setTimeout Hack",
+      "13,### One more thing that I deferred",
+      "14,### Performance In the Real World",
+      "15,## Final Thoughts",
+      "16,### MPA still has some way to go",
+      "17,### PWA is Awesome No Matter What",
+      "18,## Appendix. Architecture Diagram"
+    ]
+  },
+  "files_mtime_info" : {
+    "日常\/2023-04-28.md" : 1682653022,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 1682418283,
+    "ads.txt" : 1682418283,
+    "_posts\/2023-04-18-hello-world!.md" : 1682245257,
+    "README.md" : 1682586580,
+    "_posts\/2023-04-27-change-career.md" : 1682604113,
+    "_posts\/2023-04-10-Hello-SJSJ.md" : 1682591574,
+    "_doc\/README.zh.md" : 1682418283,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 1682418283,
+    "tools\/tools.md" : 1682586896,
+    "_includes\/about\/zh.md" : 1682435211,
+    "_posts\/2023-04-28-测试.md" : 1682653087,
+    "_doc\/Manual.md" : 1682419277
+  },
+  "relative_paths" : [
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md",
+    "_includes\/about\/zh.md",
+    "tools\/tools.md",
+    "_posts\/2023-04-27-change-career.md",
+    "_posts\/2023-04-10-Hello-SJSJ.md",
+    "ads.txt",
+    "_doc\/README.zh.md",
+    "_doc\/Manual.md",
+    "README.md"
+  ],
+  "path_name_info" : {
+    "_posts\/2023-04-10-Hello-SJSJ.md" : "Hello 数据斯基！",
+    "ads.txt" : "ads",
+    "_doc\/README.zh.md" : "README.zh",
+    "_posts\/2023-04-27-change-career.md" : "我是怎么转行的？",
+    "_includes\/about\/zh.md" : "zh",
+    "_doc\/Manual.md" : "Manual",
+    "README.md" : "README",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : "en",
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : "zh",
+    "tools\/tools.md" : "tools"
+  },
+  "documents_info" : {
+    "tools\/tools.md" : {
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "_doc\/Manual.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "Ruby",
+          "url" : "https:\/\/www.ruby-lang.org\/en\/"
+        },
+        {
+          "url" : "https:\/\/bundler.io\/",
+          "name" : "Bundler"
+        },
+        {
+          "name" : "Jekyll",
+          "url" : "https:\/\/jekyllrb.com\/"
+        },
+        {
+          "name" : "Using Jekyll with Bundler",
+          "url" : "https:\/\/jekyllrb.com\/tutorials\/using-jekyll-with-bundler\/"
+        },
+        {
+          "name" : "Grunt",
+          "url" : "https:\/\/gruntjs.com\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/Shopify\/liquid\/wiki",
+          "name" : "Liquid"
+        },
+        {
+          "name" : "Rouge",
+          "url" : "http:\/\/rouge.jneen.net\/"
+        },
+        {
+          "name" : "here",
+          "url" : "http:\/\/jwarby.github.io\/jekyll-pygments-themes\/languages\/javascript.html"
+        },
+        {
+          "name" : "Jekyll - Official Site",
+          "url" : "http:\/\/jekyllrb.com\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/ruby\/rake",
+          "name" : "Rake"
+        },
+        {
+          "name" : "this",
+          "url" : "https:\/\/huangxuan.me\/2019\/09\/08\/spacemacs-workflow\/"
+        },
+        {
+          "url" : "http:\/\/getbootstrap.com\/css\/#grid",
+          "name" : "Bootstarp Grid System"
+        },
+        {
+          "url" : "http:\/\/medium.com",
+          "name" : "Medium"
+        },
+        {
+          "name" : "Disqus",
+          "url" : "http:\/\/disqus.com"
+        },
+        {
+          "url" : "http:\/\/duoshuo.com",
+          "name" : "Duoshuo"
+        },
+        {
+          "name" : "Archive",
+          "url" : "https:\/\/huangxuan.me\/archive\/"
+        },
+        {
+          "name" : "@kitian616\/jekyll-TeXt-theme",
+          "url" : "https:\/\/github.com\/kitian616\/jekyll-TeXt-theme"
+        },
+        {
+          "name" : "Mathjax, kramdown and Octopress",
+          "url" : "https:\/\/www.lucypark.kr\/blog\/2013\/02\/25\/mathjax-kramdown-and-octopress\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/Huxpro\/huxpro.github.io\/issues\/15",
+          "name" : "issue#15"
+        },
+        {
+          "url" : "http:\/\/www.apple.com\/cn\/osx\/whats-new\/",
+          "name" : "OS X El Capitan"
+        },
+        {
+          "url" : "http:\/\/getbootstrap.com\/javascript\/#collapse",
+          "name" : "Bootstrap collapse.js"
+        },
+        {
+          "url" : "http:\/\/jankfree.org\/",
+          "name" : "jank free"
+        },
+        {
+          "name" : "Google Material Design",
+          "url" : "https:\/\/www.google.com\/design\/spec\/material-design\/introduction.html"
+        },
+        {
+          "url" : "https:\/\/help.github.com\/articles\/github-flavored-markdown\/",
+          "name" : "Github Flavored Markdown"
+        },
+        {
+          "url" : "http:\/\/duoshuo.com\/",
+          "name" : "DuoShuo"
+        }
+      ]
+    },
+    "_posts\/2023-04-27-change-career.md" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    },
+    "_doc\/README.zh.md" : {
+      "links" : [
+        {
+          "url" : "http:\/\/huxpro.github.io",
+          "name" : "我的博客在这里 &rarr;"
+        },
+        {
+          "name" : "using jekyll with pages",
+          "url" : "https:\/\/help.github.com\/articles\/using-jekyll-with-pages\/"
+        },
+        {
+          "url" : "http:\/\/jekyllrb.com\/docs\/upgrading\/2-to-3\/",
+          "name" : "Upgrading from 2.x to 3.x"
+        },
+        {
+          "url" : "http:\/\/huangxuan.me\/huxblog-boilerplate\/",
+          "name" : "在这里预览模板 &rarr;"
+        },
+        {
+          "name" : "issue#15",
+          "url" : "https:\/\/github.com\/Huxpro\/huxpro.github.io\/issues\/15"
+        },
+        {
+          "name" : "@BrucZhaoR",
+          "url" : "https:\/\/github.com\/BruceZhaoR"
+        },
+        {
+          "url" : "http:\/\/jekyllrb.com\/",
+          "name" : "Jekyll - Official Site"
+        },
+        {
+          "name" : "Jekyll中文",
+          "url" : "http:\/\/jekyllcn.com\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/ruby\/rake",
+          "name" : "Rake"
+        },
+        {
+          "url" : "http:\/\/medium.com",
+          "name" : "Medium"
+        },
+        {
+          "url" : "http:\/\/duoshuo.com",
+          "name" : "Duoshuo"
+        },
+        {
+          "name" : "Disqus",
+          "url" : "http:\/\/disqus.com"
+        },
+        {
+          "url" : "http:\/\/brucezhaor.github.io\/about.html",
+          "name" : "这里"
+        },
+        {
+          "name" : "Liquid",
+          "url" : "https:\/\/github.com\/Shopify\/liquid\/wiki"
+        },
+        {
+          "url" : "https:\/\/github.com\/Huxpro\/huxpro.github.io\/issues\/6",
+          "name" : "issue #6"
+        },
+        {
+          "url" : "https:\/\/github.com\/IronSummitMedia\/startbootstrap-clean-blog-jekyll",
+          "name" : "IronSummitMedia\/startbootstrap-clean-blog-jekyll"
+        },
+        {
+          "name" : "http:\/\/v3.bootcss.com\/css\/",
+          "url" : "http:\/\/v3.bootcss.com\/css\/"
+        }
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "README.md" : {
+      "links" : [
+        {
+          "name" : "@陈素封",
+          "url" : "https:\/\/www.zhihu.com\/people\/Feat"
+        },
+        {
+          "name" : "@huxpro",
+          "url" : "https:\/\/huangxuan.me\/about\/"
+        }
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "url" : "https:\/\/medium.com\/elemefe\/upgrading-ele-me-to-progressive-web-app-2a446832e509",
+          "name" : "Upgrading Ele.me to Progressive Web Apps"
+        },
+        {
+          "url" : "http:\/\/geek.csdn.net\/news\/detail\/210535",
+          "name" : "CSDN"
+        },
+        {
+          "url" : "https:\/\/zhuanlan.zhihu.com\/ElemeFE",
+          "name" : "饿了么前端 - 知乎专栏"
+        },
+        {
+          "name" : "Hux Blog",
+          "url" : "https:\/\/huangxuan.me"
+        },
+        {
+          "url" : "https:\/\/h5.ele.me\/msite\/#pwa=true",
+          "name" : "公开][1]到现在，我们就一直在进行着将[饿了么移动端网站"
+        },
+        {
+          "url" : "https:\/\/m.weibo.cn\/status\/4109332495285652",
+          "name" : "Progressive Web App][2] 的工作。直到近日在 Google I\/O 2017 上[登台亮相"
+        },
+        {
+          "name" : "Vue.js",
+          "url" : "http:\/\/vuejs.org\/"
+        },
+        {
+          "url" : "(https:\/\/www.youtube.com\/watch?v=pBBSp_iIiVM",
+          "name" : "Vue 还是一个渐进式框架"
+        },
+        {
+          "name" : "实验",
+          "url" : "https:\/\/zhuanlan.zhihu.com\/p\/26757514"
+        },
+        {
+          "name" : "代码缓存（code caching）",
+          "url" : "http:\/\/v8project.blogspot.com\/2015\/07\/code-caching.html"
+        },
+        {
+          "name" : "Reactive Web Design: The secret to building web apps that feel amazing",
+          "url" : "https:\/\/medium.com\/@owencm\/reactive-web-design-the-secret-to-building-web-apps-that-feel-amazing-b5cbfe9b7c50"
+        },
+        {
+          "name" : "两个",
+          "url" : "https:\/\/youtu.be\/K5JBGnMYO1s"
+        },
+        {
+          "name" : "视频",
+          "url" : "https:\/\/youtu.be\/w1ZbNsHmRjs"
+        },
+        {
+          "name" : "骨架屏不过是当数据还未加载进来前，页面的一个空白版本而已",
+          "url" : "https:\/\/www.lukew.com\/ff\/entry.asp?1797"
+        },
+        {
+          "name" : "Vue.js 的服务端渲染模块",
+          "url" : "https:\/\/ssr.vuejs.org\/en\/"
+        },
+        {
+          "name" : "关键渲染路径",
+          "url" : "https:\/\/developers.google.com\/web\/fundamentals\/performance\/critical-rendering-path\/"
+        },
+        {
+          "name" : "HTML 规范 Scripting 章节",
+          "url" : "https:\/\/html.spec.whatwg.org\/multipage\/scripting.html"
+        },
+        {
+          "url" : "https:\/\/github.com\/Huxpro\/mmpwa",
+          "name" : "github.com\/Huxpro\/mmpwa"
+        },
+        {
+          "name" : "huangxuan.me\/mmpwa\/",
+          "url" : "https:\/\/huangxuan.me\/mmpwa"
+        },
+        {
+          "name" : "lib-flexible",
+          "url" : "https:\/\/github.com\/amfe\/lib-flexible"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/jaffathecake",
+          "name" : "Jake Archibald"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/Huxpro\/status\/859842124849827841",
+          "name" : "聊了一下"
+        },
+        {
+          "url" : "https:\/\/bugs.chromium.org\/p\/chromium\/issues\/detail?id=717979",
+          "name" : "crbug"
+        },
+        {
+          "url" : "https:\/\/youtu.be\/J2dOTKBoTL4?list=PLNYkxOF6rcIBTs2KPy1E6tIYaWoFcG3uj",
+          "name" : "Chrome Dev Summit 2016"
+        },
+        {
+          "url" : "https:\/\/zhuanlan.zhihu.com\/p\/25167289",
+          "name" : "下一代 Web 应用模型"
+        }
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "_includes\/about\/zh.md" : {
+      "links" : [
+
+      ],
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : {
+      "links" : [
+        {
+          "name" : "Upgrading Ele.me to Progressive Web Apps",
+          "url" : "https:\/\/medium.com\/elemefe\/upgrading-ele-me-to-progressive-web-app-2a446832e509"
+        },
+        {
+          "url" : "http:\/\/vuejs.org\/",
+          "name" : "Vue.js"
+        },
+        {
+          "url" : "http:\/\/vuejs.org\/v2\/guide\/single-file-components.html",
+          "name" : "Single File Components"
+        },
+        {
+          "name" : "Vue is progressive",
+          "url" : "https:\/\/www.youtube.com\/watch?v=pBBSp_iIiVM"
+        },
+        {
+          "url" : "https:\/\/developers.google.com\/web\/tools\/lighthouse\/",
+          "name" : "Lighthouse"
+        },
+        {
+          "name" : "code caching",
+          "url" : "http:\/\/v8project.blogspot.com\/2015\/07\/code-caching.html"
+        },
+        {
+          "url" : "https:\/\/medium.com\/reloading\/javascript-start-up-performance-69200f43b201",
+          "name" : "JavaScript Start-up Performance"
+        },
+        {
+          "url" : "https:\/\/webkit.org\/blog\/427\/webkit-page-cache-i-the-basics\/",
+          "name" : "WebKit's \"Page Cache\""
+        },
+        {
+          "name" : "here",
+          "url" : "https:\/\/docs.google.com\/document\/d\/1o8KImLPrJQcMNqvd_a-1V8fEVgtVeEJww453ZQ1hGuo\/edit#"
+        },
+        {
+          "url" : "https:\/\/medium.com\/@owencm\/reactive-web-design-the-secret-to-building-web-apps-that-feel-amazing-b5cbfe9b7c50",
+          "name" : "\"Reactive Web Design: The secret to building web apps that feel amazing\""
+        },
+        {
+          "url" : "https:\/\/www.lukew.com\/ff\/entry.asp?1797",
+          "name" : "Skeleton Screen is just a blank version of a page into which information is gradually loaded"
+        },
+        {
+          "name" : "Vue.js Server-Side Rendering",
+          "url" : "https:\/\/ssr.vuejs.org\/en\/"
+        },
+        {
+          "url" : "https:\/\/developers.google.com\/web\/fundamentals\/performance\/critical-rendering-path\/",
+          "name" : "Critical Rendering Path"
+        },
+        {
+          "url" : "https:\/\/www.w3.org\/TR\/html51\/semantics-scripting.html#elementdef-script",
+          "name" : "Scripting section of HTML"
+        },
+        {
+          "name" : "Steve Souders",
+          "url" : "http:\/\/stevesouders.com\/"
+        },
+        {
+          "url" : "https:\/\/calendar.perfplanet.com\/2016\/prefer-defer-over-async\/",
+          "name" : "\"Prefer DEFER Over ASYNC\""
+        },
+        {
+          "name" : "Github",
+          "url" : "https:\/\/github.com\/Huxpro\/mmpwa"
+        },
+        {
+          "url" : "https:\/\/huangxuan.me\/mmpwa",
+          "name" : "huangxuan.me\/mmpwa\/"
+        },
+        {
+          "url" : "https:\/\/github.com\/amfe\/lib-flexible",
+          "name" : "lib-flexible"
+        },
+        {
+          "url" : "https:\/\/twitter.com\/Huxpro\/status\/859842124849827841",
+          "name" : "conversation"
+        },
+        {
+          "name" : "Jake Archibald",
+          "url" : "https:\/\/twitter.com\/jaffathecake"
+        },
+        {
+          "url" : "https:\/\/bugs.chromium.org\/p\/chromium\/issues\/detail?id=717979",
+          "name" : "Vote it at crbug"
+        },
+        {
+          "url" : "https:\/\/medium.com\/@slightlylate",
+          "name" : "Alex Russell"
+        },
+        {
+          "url" : "https:\/\/youtu.be\/4bZvq3nodf4?list=PLNYkxOF6rcIBTs2KPy1E6tIYaWoFcG3uj",
+          "name" : "a very insightful talk on mobile web performance"
+        },
+        {
+          "name" : "Chrome Dev Summit 2016",
+          "url" : "https:\/\/youtu.be\/J2dOTKBoTL4?list=PLNYkxOF6rcIBTs2KPy1E6tIYaWoFcG3uj"
+        },
+        {
+          "url" : "https:\/\/medium.com\/@addyosmani",
+          "name" : "Addy Osmani"
+        },
+        {
+          "url" : "https:\/\/events.google.com\/io\/schedule\/?section=may-19&sid=e8436b55-ea89-4243-a644-5ecb319d9ef0",
+          "name" : "Production Progressive Web Apps With JavaScript Frameworks"
+        },
+        {
+          "name" : "I\/O 16",
+          "url" : "https:\/\/youtu.be\/srdKq0DckXQ?list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP"
+        },
+        {
+          "url" : "https:\/\/github.com\/YiSiWang",
+          "name" : "YiSi Wang"
+        },
+        {
+          "url" : "https:\/\/github.com\/rguanghui",
+          "name" : "GuangHui Ren"
+        },
+        {
+          "url" : "https:\/\/medium.com\/@jiyinyiyong",
+          "name" : "JiyinYiyong"
+        },
+        {
+          "name" : "Michael Yeung",
+          "url" : "https:\/\/medium.com\/@micyeung"
+        },
+        {
+          "name" : "Liam Spradlin",
+          "url" : "https:\/\/medium.com\/@LiamSpradlin"
+        },
+        {
+          "url" : "https:\/\/medium.com\/@youyuxi",
+          "name" : "Evan You"
+        }
+      ],
+      "attachments" : [
+
+      ],
+      "images" : [
+
+      ]
+    },
+    "_posts\/2023-04-10-Hello-SJSJ.md" : {
+      "images" : [
+
+      ],
+      "links" : [
+        {
+          "name" : "@陈素封",
+          "url" : "https:\/\/www.zhihu.com\/people\/Feat"
+        },
+        {
+          "name" : "@huxpro",
+          "url" : "https:\/\/huangxuan.me\/about\/"
+        }
+      ],
+      "attachments" : [
+
+      ]
+    },
+    "ads.txt" : {
+      "images" : [
+
+      ],
+      "attachments" : [
+
+      ],
+      "links" : [
+
+      ]
+    }
+  },
+  "links_backward_paths" : {
+
+  },
+  "name_path_info" : {
+    "hello world！" : "_posts\/2023-04-18-hello-world!.md",
+    "en" : "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md",
+    "manual" : "_doc\/Manual.md",
+    "readme" : "README.md",
+    "tools" : "tools\/tools.md",
+    "我是怎么转行的？" : "_posts\/2023-04-27-change-career.md",
+    "ads" : "ads.txt",
+    "zh" : "_includes\/about\/zh.md",
+    "readme.zh" : "_doc\/README.zh.md",
+    "hello 数据斯基！" : "_posts\/2023-04-10-Hello-SJSJ.md"
+  },
+  "filename_path_info" : {
+    "2023-04-10-hello-sjsj" : "_posts\/2023-04-10-Hello-SJSJ.md",
+    "ads" : "ads.txt",
+    "readme.zh" : "_doc\/README.zh.md",
+    "manual" : "_doc\/Manual.md",
+    "2023-04-27-change-career" : "_posts\/2023-04-27-change-career.md",
+    "readme" : "README.md",
+    "en" : "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md",
+    "zh" : "_includes\/about\/zh.md",
+    "tools" : "tools\/tools.md"
+  },
+  "toc_hash_info" : {
+
+  },
+  "links_paths" : {
+
+  },
+  "documents_meta_info" : {
+    "tools\/tools.md" : {
+
+    },
+    "_posts\/2023-04-10-Hello-SJSJ.md" : {
+      "title" : "Hello 数据斯基！",
+      "catalog" : "true",
+      "date" : "2023-04-10",
+      "raw_metadata_str" : "layout:       post\ntitle:        \"Hello 数据斯基！\"\nauthor:       \"AbacusMan\"\nheader-style: text\ncatalog:      true\ndate: 2023-04-10\ntags:\n    - 数据分析\n    - 转行",
+      "tags" : "",
+      "author" : "AbacusMan",
+      "layout" : "post"
+    },
+    "_includes\/about\/zh.md" : {
+
+    },
+    "ads.txt" : {
+
+    },
+    "_posts\/2023-04-18-hello-world!.md" : {
+      "raw_metadata_str" : "layout:       post\ntitle:        \"Hello World！\"\nauthor:       \"AbacusMan\"\nheader-style: text\ncatalog:      true\ndate: 2023-04-18\ntags:\n    - 测试\n    - 测试 2",
+      "tags" : "",
+      "title" : "Hello World！",
+      "date" : "2023-04-18",
+      "catalog" : "true",
+      "author" : "AbacusMan",
+      "layout" : "post"
+    },
+    "_doc\/README.zh.md" : {
+
+    },
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : {
+
+    },
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : {
+
+    },
+    "_posts\/2023-04-27-change-career.md" : {
+      "author" : "AbacusMan",
+      "layout" : "post",
+      "raw_metadata_str" : "layout:       post\ntitle:        \"我是怎么转行的？\"\nauthor:       \"AbacusMan\"\nheader-style: text\ncatalog:      true\ndate: 2023-04-27\ntags:\n    - 数据分析\n    - 转行",
+      "title" : "我是怎么转行的？",
+      "date" : "2023-04-27",
+      "tags" : "",
+      "catalog" : "true"
+    },
+    "日常\/2023-04-28.md" : {
+      "date" : "2023-04-28 11:37",
+      "raw_metadata_str" : "title: 2023-04-28\ndate: 2023-04-28 11:37",
+      "title" : "2023-04-28"
+    },
+    "README.md" : {
+
+    },
+    "_posts\/2023-04-28-测试.md" : {
+      "raw_metadata_str" : "title: 2023-04-28-测试\ndate: 2023-04-28",
+      "title" : "2023-04-28-测试",
+      "date" : "2023-04-28"
+    },
+    "_doc\/Manual.md" : {
+
+    }
+  },
+  "tags_tags" : {
+
+  },
+  "words_info" : {
+    "_doc\/Manual.md" : 1647,
+    "_doc\/README.zh.md" : 2498,
+    "_posts\/2023-04-10-Hello-SJSJ.md" : 1290,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/zh.md" : 6017,
+    "tools\/tools.md" : 45,
+    "_includes\/about\/zh.md" : 36,
+    "_posts\/2023-04-27-change-career.md" : 2777,
+    "ads.txt" : 5,
+    "README.md" : 163,
+    "_includes\/posts\/2017-07-12-upgrading-eleme-to-pwa\/en.md" : 3089
+  },
+  "todo_list" : {
+
+  }
+}
