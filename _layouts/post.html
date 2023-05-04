@@ -56,10 +56,11 @@ layout: default
     <!-- Side Catalog Container -->
         {% unless page.no-catalog %}
             <div class="
-                col-lg-2 col-lg-offset-0
+                col-lg-3 col-lg-offset-1
                 visible-lg-block
+                catalog-container
                 sidebar-container
-                catalog-container">
+                ">
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
@@ -79,19 +80,6 @@ layout: default
                 
                 <!-- Friends Blog -->
                 {% include friends.html %}
-            </div>
-            <!-- valine评论 -->
-            <div>
-                <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-        
-                <div id="vcomments"></div>
-                <script>
-                    new Valine({
-                        el: '#vcomments',
-                        appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
-                        appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
-                    })
-                </script>
             </div>
         </div>
     </div>
@@ -130,6 +118,23 @@ layout: default
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
+
+<!-- valine评论 -->
+<div class="container">
+    <div class="row">
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
+                appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
+            })
+        </script>
+    </div>
+</div>
+
     
 {% if site.anchorjs %}
 <!-- async load function -->
