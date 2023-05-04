@@ -105,20 +105,6 @@ layout: default
                 
                 <!-- Friends Blog -->
                 {% include friends.html %}
-            
-                <!-- valine评论 -->
-                <div>
-                    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-                    <div id="vcomments"></div>
-                    <script>
-                        new Valine({
-                            el: '#vcomments',
-                            appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
-                            appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj',
-                            visitor: true // 阅读量统计
-                        })
-                    </script>
-                </div>
             </div>
         </div>
     </div>
@@ -163,6 +149,21 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+<!-- valine评论 -->
+<div class="container">
+    <div class="row">
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
+                appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj',
+                visitor: true // 阅读量统计
+            })
+        </script>
+    </div>
+</div>
     
 {% if site.anchorjs %}
 <!-- async load function -->
