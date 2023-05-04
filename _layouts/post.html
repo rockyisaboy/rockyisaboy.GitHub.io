@@ -106,19 +106,18 @@ layout: default
                 <!-- Friends Blog -->
                 {% include friends.html %}
             </div>
-            <br>
-            <!-- valine评论 -->
-            <div>
-                <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-                <div id="vcomments"></div>
-                <script>
-                    new Valine({
-                        el: '#vcomments',
-                        appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
-                        appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
-                    })
-                </script>
-            </div>
+        </div>
+        <!-- valine评论 -->
+        <div>
+            <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+            <div id="vcomments"></div>
+            <script>
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'Pjy6VEFTEmh84QaLV25sHh8B-gzGzoHsz',
+                    appKey: 'xShhO8MeLS5XcoMy2ULtE7Wj'
+                })
+            </script>
         </div>
     </div>
 </article>
