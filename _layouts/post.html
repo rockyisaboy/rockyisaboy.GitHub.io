@@ -1,32 +1,25 @@
 ---
 layout: default
 ---
-
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
-
 <!-- Post Header -->
 {% include intro-header.html type='post' %}
-
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
-
     <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
                 <!-- Multi-Lingual -->
                 {% if page.multilingual %}
                     {% include multilingual-sel.html %}
                 {% endif %}
-
 				{{ content }}
-
                 <hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -47,7 +40,6 @@ layout: default
                     {% endif %}
                 </ul>
                 <hr style="visibility: hidden;">
-                
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
@@ -55,13 +47,12 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
-
+            </div>  
     <!-- Side Catalog Container -->
         {% unless page.no-catalog %}
             <div class="
@@ -78,13 +69,11 @@ layout: default
                 </div>
             </div>
         {% endunless %}
-
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
-
                 <!-- Featured Tags -->
                 {% include featured-tags.html bottom=true %}
                 
@@ -92,9 +81,10 @@ layout: default
                 {% include friends.html %}
             </div>
             <!-- valine评论 -->
-            <div class="container">
-                <div class="valine">
+            <div class="post-container">
+                <div class="container">
                     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+            
                     <div id="vcomments"></div>
                     <script>
                         new Valine({
@@ -108,12 +98,10 @@ layout: default
         </div>
     </div>
 </article>
-
 <!-- add support for mathjax by voleking-->
 {% if page.mathjax %}
   {% include mathjax_support.html %}
 {% endif %}
-
 {% if site.netease_comment %}
 <!-- 网易云跟帖JS代码 start -->
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
@@ -129,8 +117,6 @@ layout: default
 </script>
 <!-- 网易云跟帖JS代码 end -->
 {% endif %}
-
-
 {% if site.disqus_username %}
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -138,7 +124,6 @@ layout: default
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
-
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
