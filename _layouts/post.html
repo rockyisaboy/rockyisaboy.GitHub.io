@@ -62,39 +62,39 @@ layout: default
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
 
-        <!-- Side Catalog Container -->
-            {% unless page.no-catalog %}
-                <div class="
-                    col-lg-2 col-lg-offset-0
-                    visible-lg-block
-                    sidebar-container
-                    catalog-container">
-                    <div class="side-catalog">
-                        <hr class="hidden-sm hidden-xs">
-                        <h5>
-                            <a class="catalog-toggle" href="#">本文目录</a>
-                        </h5>
-                        <ul class="catalog-body"></ul>
-                    </div>
+    <!-- Side Catalog Container -->
+        {% unless page.no-catalog %}
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">本文目录</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
                 </div>
-            {% endunless %}
+            </div>
+        {% endunless %}
 
-        <!-- Sidebar Container -->
-                <div class="
-                    col-lg-8 col-lg-offset-2
-                    col-md-10 col-md-offset-1
-                    sidebar-container">
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
-                    <!-- Featured Tags -->
-                    {% include featured-tags.html bottom=true %}
-                    
-                    <!-- Friends Blog -->
-                    {% include friends.html %}
-                </div>
-                <!-- valine评论 -->
-                <div>
+                <!-- Featured Tags -->
+                {% include featured-tags.html bottom=true %}
+                
+                <!-- Friends Blog -->
+                {% include friends.html %}
+            </div>
+            <!-- valine评论 -->
+            <div class="container">
+                <div class="valine">
                     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-
                     <div id="vcomments"></div>
                     <script>
                         new Valine({
@@ -104,7 +104,7 @@ layout: default
                         })
                     </script>
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
 </article>
@@ -147,7 +147,7 @@ layout: default
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
-
+    
 {% if site.anchorjs %}
 <!-- async load function -->
 <script>
