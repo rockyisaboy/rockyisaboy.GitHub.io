@@ -1567,6 +1567,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.valine {
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
